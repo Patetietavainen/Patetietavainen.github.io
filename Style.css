@@ -79,11 +79,11 @@
   }
   
   a:hover {
-    color: #32343a;
+    color: #000000;
   }
   
   a:active {
-    color: #43464d;
+    color: #000000;
   }
   
   ul {
@@ -216,7 +216,7 @@
     -ms-flex-align: center;
     align-items: center;
     background-color: #1a1b1f;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
   
@@ -280,13 +280,13 @@
   .section.cc-contact {
     padding-right: 80px;
     padding-left: 80px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
   }
   
   .button {
     padding: 12px 25px;
     border-radius: 0px;
-    background-color: #1a1b1f;
+    background-color: #000000;
     -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
     transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
     color: #fff;
@@ -298,12 +298,12 @@
   }
   
   .button:hover {
-    background-color: #32343a;
-    color: #fff;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
   }
   
   .button:active {
-    background-color: #43464d;
+    background-color: #000000;
   }
   
   .button.cc-jumbo-button {
@@ -314,18 +314,18 @@
   
   .button.cc-white-button {
     padding: 16px 35px;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     color: #202020;
     font-size: 14px;
     line-height: 26px;
   }
   
   .button.cc-white-button:hover {
-    background-color: hsla(0, 0%, 100%, 0.8);
+    background-color: hsla(0, 0%, 0%, 0.8);
   }
   
   .button.cc-white-button:active {
-    background-color: hsla(0, 0%, 100%, 0.9);
+    background-color: hsla(0, 0%, 0%, 0.9);
   }
   
   .paragraph-bigger {
@@ -342,7 +342,7 @@
   
   .divider {
     height: 1px;
-    background-color: #eee;
+    background-color: rgb(0, 0, 0);
   }
   
   .logo-link {
@@ -635,11 +635,11 @@
   }
   
   .status-message.cc-success-message {
-    background-color: #12b878;
+    background-color: #000000;
   }
   
   .status-message.cc-error-message {
-    background-color: #db4b68;
+    background-color: #ff0000;
   }
   
   .contact {
@@ -990,7 +990,7 @@
   }
   
   .body {
-    background-color: #86e9ec;
+    background-color: #858282;
     mix-blend-mode: hard-light;
   }
   
